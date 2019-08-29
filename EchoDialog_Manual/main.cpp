@@ -1,11 +1,12 @@
 #include "dialog.h"
+#include "echodialog.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    Dialog w;
-    w.show();
+    QApplication myApp(argc, argv);
+    EchoDialog myDialog;
+    myDialog.show();
 
-    return a.exec();
+    return myApp.exec();
 }
