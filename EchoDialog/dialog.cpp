@@ -7,7 +7,6 @@ Dialog::Dialog(QWidget *parent) :
 {
     ui->setupUi(this);
 
-
     connect(ui->clearButton, &QPushButton::clicked, ui->inputLineEdit, &QLineEdit::clear );
 
 
