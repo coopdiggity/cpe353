@@ -13,6 +13,8 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    connect(ui->loadButton, &QPushButton::clicked, this, &MainWindow::populateComboBox);
+
 
 }
 

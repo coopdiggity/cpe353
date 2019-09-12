@@ -16,6 +16,7 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     bool event(QEvent * e);
+
 protected:
     void keyPressEvent(QKeyEvent * ke);
 
