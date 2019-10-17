@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>467</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>188</x>
+     <y>0</y>
+     <width>271</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="intLineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="int255lineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="binaryLineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="hexLineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="floatLineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lCaseLineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="allCaseLineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="phoneLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>8</y>
+     <width>123</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>integer</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>integer 0-255</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Binary byte</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Hex Byte</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Float</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Lower Case only</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Upper or Lower Case</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Phone aaa-bbb-cccc</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
